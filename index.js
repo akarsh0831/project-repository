@@ -19,7 +19,7 @@ function showMovies(url) {
           image.src = img + element.poster_path;
           elem.appendChild(image);
           elem.appendChild(text);
-          main.appendChild(el);
+          main.appendChild(elem);
       });
   });
 }
